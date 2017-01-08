@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/departureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font.size.subheading"
+            android:textColor="@android:color/black"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:fontFeatureSettings="smcp,onum"
+            tools:text="12:49" />
+
+        <TextView
+            android:id="@+id/arrivalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font.size.subheading"
+            android:textColor="@android:color/black"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:fontFeatureSettings="smcp,onum"
+            tools:text="12:58" />
+
+        <TextView
+            android:id="@+id/changesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font.size.subheading"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:fontFeatureSettings="smcp,onum"
+            android:textColor="@android:color/black"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_shuffle_black_24dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/default_margin_content"
+            tools:text="changed: 2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@string/font.size.caption"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:fontFeatureSettings="smcp,onum"
+        tools:text="9 min"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+
+</RelativeLayout>

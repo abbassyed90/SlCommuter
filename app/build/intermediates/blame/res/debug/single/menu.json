@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_subscribed_deviations.xml",
+        "source": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\src\\main\\res\\menu\\menu_subscribed_deviations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer_home.xml",
+        "source": "C:\\Users\\Family\\Desktop\\SLCommuter\\app\\src\\main\\res\\menu\\navigation_drawer_home.xml"
+    }
+]

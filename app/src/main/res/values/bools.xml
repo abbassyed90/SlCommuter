@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_sound_notification_value">false</bool>
+    <bool name="default_vibrate_notification_value">false</bool>
+    <bool name="default_show_notification_value">true</bool>
+
+
+</resources>

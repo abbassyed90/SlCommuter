@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_general"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/trip"
+            android:checked="false"
+            android:title="@string/navigation_drawer_title_plan_trip" />
+
+        <item
+            android:id="@+id/realtime"
+            android:checked="false"
+            android:title="@string/navigation_drawer_title_real_time" />
+
+        <item
+            android:id="@+id/deviations"
+            android:checked="false"
+            android:title="@string/navigation_drawer_title_deviations" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_deviations"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/subscribeddeviations"
+            android:checkable="false"
+            android:title="@string/navigation_drawer_title_subscribed_deviations" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings"
+            android:checkable="false"
+            android:title="@string/navigation_drawer_title_settings" />
+
+    </group>
+
+
+</menu>

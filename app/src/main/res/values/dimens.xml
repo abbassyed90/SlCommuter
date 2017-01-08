@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="elevation.toolbar">4dp</dimen>
+
+    <dimen name="button.height">36dp</dimen>
+    <dimen name="button.padding">16dp</dimen>
+
+    <dimen name="radius.cardview">2dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_margin_content">8dp</dimen>
+
+    <dimen name="edittext_height_normal">48dp</dimen>
+    <dimen name="edittext_height_dense">40dp</dimen>
+
+    <!-- Material guidelines -->
+    <dimen name="font.size.headline">24sp</dimen>
+    <dimen name="font.size.title">20sp</dimen>
+    <dimen name="font.size.subheading">16sp</dimen>
+    <dimen name="font.size.body">14sp</dimen>
+    <dimen name="font.size.body2">14sp</dimen>
+    <dimen name="font.size.caption">12sp</dimen>
+    <dimen name="font.size.button">14sp</dimen>
+    <dimen name="toolbar.elevation">4dp</dimen>
+
+
+</resources>

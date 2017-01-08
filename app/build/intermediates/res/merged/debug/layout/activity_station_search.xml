@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/searchSiteEditText"
+            style="@style/material_edittext_dense"
+            android:drawableLeft="@drawable/ic_search_white_18dp"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:layout_marginBottom="@dimen/default_margin_content"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:background="@drawable/shape_rounded_rectangle"
+            android:hint="@string/hint_search_station"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <project.as224qc.dv606.slcommuter.widget.ExtendedRecyclerView
+            android:id="@+id/recyclerview"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ViewStub
+            android:id="@+id/viewStub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/empty_state" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

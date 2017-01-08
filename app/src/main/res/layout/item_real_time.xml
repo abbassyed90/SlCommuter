@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:scaleType="center"
+        tools:src="@drawable/ic_directions_bus_blue_grey_500_18dp" />
+
+    <TextView
+        android:id="@+id/destinationTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/displayTime"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:fontFeatureSettings="onum,smcp"
+        android:textSize="@dimen/font.size.subheading"
+        tools:text="580 Märsta Station" />
+
+    <TextView
+        android:id="@+id/displayTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@string/font.size.caption"
+        android:fontFeatureSettings="onum,smcp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="2 min" />
+
+</RelativeLayout>

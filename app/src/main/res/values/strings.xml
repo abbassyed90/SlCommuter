@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">SL Commuter</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Material guidelines -->
+    <string name="font.size.headline">sans-serif</string>
+    <string name="font.size.title">sans-serif-medium</string>
+    <string name="font.size.subheading">sans-serif</string>
+    <string name="font.size.body">sans-serif</string>
+    <string name="font.size.body2">sans-serif-medium</string>
+    <string name="font.size.caption">sans-serif</string>
+    <string name="font.size.button">sans-serif-medium</string>
+
+    <!-- Font family -->
+    <string name="font.regular.condensed">sans-serif-condensed</string>
+    <string name="font.regular.light">sans-serif-light</string>
+    <string name="font.regular.medium">sans-serif-medium</string>
+    <string name="font.regular.black">sans-serif-black</string>
+
+    <!-- Toolbar titles -->
+    <string name="title_station_search">Search Station</string>
+    <string name="title_trip">Plan Trip</string>
+    <string name="title_deviations">Deviations</string>
+    <string name="title_real_time">Real Time</string>
+    <string name="title_planed_trip">Plan Trip</string>
+    <string name="title_subscribed_deviation">Subscribed deviations</string>
+
+    <!-- Navigation drawer titles -->
+    <string name="navigation_drawer_title_plan_trip">Plan trip</string>
+    <string name="navigation_drawer_title_deviations">Deviations</string>
+    <string name="navigation_drawer_title_real_time">Time Table</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_title_subscribed_deviations">Subscribed deviations</string>
+    <string name="navigation_drawer_title_settings">Settings</string>
+
+    <!-- Generic -->
+    <string name="search">Search</string>
+    <string name="changes">changes</string>
+    <string name="departure">departure</string>
+    <string name="arrival">arrival</string>
+    <string name="title_deviation">Deviation</string>
+    <string name="min">min</string>
+    <string name="walk">walk</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="from">From</string>
+    <string name="too">Too</string>
+    <string name="deviations">Deviations</string>
+    <string name="trip_plain_text" formatted="false">I plan to travel from %s at %s and will arrive at %s at %s</string>
+    <string name="msg_add_subscription">Enter a bus route number or train line number. E.g. 560, 580 or 36</string>
+    <string name="msg_clear_data">Clear all data saved about previous searches etc.</string>
+    <string name="clear">clear</string>
+
+
+    <!-- Hints -->
+    <string name="hint_search_station">Search Station...</string>
+    <string name="hint_add_subscription">Enter linenumber</string>
+
+    <!-- empty state titles -->
+    <string name="empty.state.title.plantrip">Search for a trip</string>
+    <string name="empty.state.title.timetable">Search for departures</string>
+    <string name="empty.state.title.station">Search for a station</string>
+    <string name="empty_state_title_network_error">Server is down :(, try again later</string>
+
+    <!-- dialog titles -->
+    <string name="dialog_title_subscription">Add a new subscription</string>
+    <string name="dialog_title_clear_data">Clear data</string>
+
+    <string name="title_clear_data">Clear all saved data</string>
+    <string name="preference_title_data">Data</string>
+
+    <!-- Notifications -->
+    <string name="notification_new_deviations" formatted="false">%s new deviations</string>
+
+    <!-- errors -->
+    <string name="error_no_station_selected">Please select station/s</string>
+    <string name="error_field_empty">Field is empty</string>
+    <string name="error_same_station">You have selected the same station</string>
+
+    <!-- Preference -->
+    <string name="preference_title_notification">Notification</string>
+    <string name="title_checkbox_notification_show">Show notification</string>
+    <string name="title_checkbox_notification_sound">Sound</string>
+    <string name="title_checkbox_notification_vibrate">Vibrate</string>
+
+    <!-- Shared pref keys DON'T CHANGE-->
+    <string name="key_notification_vibrate">checkbox_preference_vibrate</string>
+    <string name="key_notification_sound">checkbox_preference_sound</string>
+    <string name="key_notification_show">checkbox_preference_show_notification</string>
+
+</resources>

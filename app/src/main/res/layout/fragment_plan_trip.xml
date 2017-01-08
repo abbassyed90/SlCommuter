@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/searchBarFrom"
+            style="@style/material_edittext_dense"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:layout_toStartOf="@+id/changeOrderButton"
+            android:drawableLeft="@drawable/ic_location_on_white_18dp"
+            android:focusable="false"
+            android:hint="@string/from" />
+
+        <EditText
+            android:id="@+id/searchBarToo"
+            style="@style/material_edittext_dense"
+            android:layout_below="@id/searchBarFrom"
+            android:layout_marginBottom="@dimen/default_margin_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin_content"
+            android:layout_toStartOf="@+id/changeOrderButton"
+            android:drawableLeft="@drawable/ic_location_on_white_18dp"
+            android:focusable="false"
+            android:hint="@string/too" />
+
+        <ImageView
+            android:id="@+id/changeOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/default_margin"
+            android:src="@drawable/ic_swap_vert_white_24dp" />
+
+    </RelativeLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/edittextslayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/searchBarFrom"
+                    style="@style/material_edittext_dense"/>
+
+                <EditText
+                    android:id="@+id/searchBarToo"
+                    style="@style/material_edittext_dense"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/changeOrderButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="15"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/search"
+            android:paddingRight="@dimen/default_margin"
+            android:textAllCaps="true"
+            android:fontFamily="@string/font.regular.medium"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+-->
+
+
+    <TextView
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@string/font.regular.medium"
+        android:gravity="right|center_vertical"
+        android:paddingRight="@dimen/default_margin"
+        android:text="@string/search"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <project.as224qc.dv606.slcommuter.widget.ExtendedRecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ViewStub
+            android:id="@+id/viewStub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/empty_state" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

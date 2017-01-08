@@ -1,0 +1,7 @@
+#Sat Jan 07 20:18:49 CET 2017
+base.0=C\:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_08ca0eff29ca1c3415a0952fcb9ac38097b58762
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dc8d6746f1e674a9caf9a0b265e78f2624742f0f\\classes.dex
+base.1=C\:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dc8d6746f1e674a9caf9a0b265e78f2624742f0f
+file.0=C\:\\Users\\Family\\Desktop\\SLCommuter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_08ca0eff29ca1c3415a0952fcb9ac38097b58762\\classes.dex
